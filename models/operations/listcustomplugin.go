@@ -3,9 +3,10 @@
 package operations
 
 import (
-	"github.com/Kong/sdk-konnect-go/internal/utils"
-	"github.com/Kong/sdk-konnect-go/models/components"
 	"net/http"
+
+	"github.com/alacuku/sdk-konnect-go/internal/utils"
+	"github.com/alacuku/sdk-konnect-go/models/components"
 )
 
 type ListCustomPluginRequest struct {

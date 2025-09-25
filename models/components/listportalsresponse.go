@@ -5,8 +5,9 @@ package components
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/Kong/sdk-konnect-go/internal/utils"
 	"time"
+
+	"github.com/alacuku/sdk-konnect-go/internal/utils"
 )
 
 // ListPortalsResponseDefaultAPIVisibility - The default visibility of APIs in the portal. If set to `public`, newly published APIs are visible to unauthenticated developers. If set to `private`, newly published APIs are hidden from unauthenticated developers.

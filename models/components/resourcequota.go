@@ -3,8 +3,9 @@
 package components
 
 import (
-	"github.com/Kong/sdk-konnect-go/internal/utils"
 	"time"
+
+	"github.com/alacuku/sdk-konnect-go/internal/utils"
 )
 
 // ResourceQuota - Object containing information about a resource quota for an organization.

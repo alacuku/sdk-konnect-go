@@ -6,15 +6,16 @@ import (
 	"bytes"
 	"context"
 	"fmt"
-	"github.com/Kong/sdk-konnect-go/internal/config"
-	"github.com/Kong/sdk-konnect-go/internal/hooks"
-	"github.com/Kong/sdk-konnect-go/internal/utils"
-	"github.com/Kong/sdk-konnect-go/models/components"
-	"github.com/Kong/sdk-konnect-go/models/operations"
-	"github.com/Kong/sdk-konnect-go/models/sdkerrors"
-	"github.com/Kong/sdk-konnect-go/retry"
 	"net/http"
 	"net/url"
+
+	"github.com/alacuku/sdk-konnect-go/internal/config"
+	"github.com/alacuku/sdk-konnect-go/internal/hooks"
+	"github.com/alacuku/sdk-konnect-go/internal/utils"
+	"github.com/alacuku/sdk-konnect-go/models/components"
+	"github.com/alacuku/sdk-konnect-go/models/operations"
+	"github.com/alacuku/sdk-konnect-go/models/sdkerrors"
+	"github.com/alacuku/sdk-konnect-go/retry"
 )
 
 // AppAuthStrategies - Application Auth Strategies are sets of plugin configurations that represent how the gateway will perform authentication and authorization for a Product Version.

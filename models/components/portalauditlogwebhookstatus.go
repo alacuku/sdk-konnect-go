@@ -5,8 +5,9 @@ package components
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/Kong/sdk-konnect-go/internal/utils"
 	"time"
+
+	"github.com/alacuku/sdk-konnect-go/internal/utils"
 )
 
 // WebhookStatus - Current status of a webhook. `active` indicates the webhook is sending or ready to send requests.

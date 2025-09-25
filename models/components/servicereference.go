@@ -3,7 +3,7 @@
 package components
 
 import (
-	"github.com/Kong/sdk-konnect-go/internal/utils"
+	"github.com/alacuku/sdk-konnect-go/internal/utils"
 )
 
 // ServiceReference - A gateway service that implements an API

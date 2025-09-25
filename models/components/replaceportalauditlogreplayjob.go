@@ -3,8 +3,9 @@
 package components
 
 import (
-	"github.com/Kong/sdk-konnect-go/internal/utils"
 	"time"
+
+	"github.com/alacuku/sdk-konnect-go/internal/utils"
 )
 
 // ReplacePortalAuditLogReplayJob - The request schema to replace a portal audit log replay job.

@@ -4,9 +4,10 @@ package operations
 
 import (
 	"errors"
-	"github.com/Kong/sdk-konnect-go/internal/utils"
-	"github.com/Kong/sdk-konnect-go/retry"
 	"time"
+
+	"github.com/alacuku/sdk-konnect-go/internal/utils"
+	"github.com/alacuku/sdk-konnect-go/retry"
 )
 
 var ErrUnsupportedOption = errors.New("unsupported option")

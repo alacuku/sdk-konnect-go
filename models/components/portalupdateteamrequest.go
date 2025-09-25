@@ -3,7 +3,7 @@
 package components
 
 import (
-	"github.com/Kong/sdk-konnect-go/internal/utils"
+	"github.com/alacuku/sdk-konnect-go/internal/utils"
 )
 
 // PortalUpdateTeamRequest - Properties to update on a team.

@@ -3,8 +3,9 @@
 package components
 
 import (
-	"github.com/Kong/sdk-konnect-go/internal/utils"
 	"time"
+
+	"github.com/alacuku/sdk-konnect-go/internal/utils"
 )
 
 type Portals struct {
@@ -38,6 +39,7 @@ func (o *Portals) GetDisplayName() string {
 }
 
 // APIResponseSchema - API
+// +k8s:openapi-gen=false
 type APIResponseSchema struct {
 	// The API identifier.
 	ID string `json:"id"`

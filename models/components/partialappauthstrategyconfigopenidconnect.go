@@ -3,13 +3,14 @@
 package components
 
 import (
-	"github.com/Kong/sdk-konnect-go/internal/utils"
+	"github.com/alacuku/sdk-konnect-go/internal/utils"
 )
 
 // PartialAppAuthStrategyConfigOpenIDConnect - A more advanced mode to configure an API Product Version’s Application Auth Strategy.
 // Using this mode will allow developers to use API credentials issued from an external IdP that will authenticate their application requests.
 // Once authenticated, an application will be granted access to any Product Version it is registered for that is configured for the same Auth Strategy.
 // An OIDC strategy may be used in conjunction with a DCR provider to automatically create the IdP application.
+// +k8s:openapi-gen=false
 type PartialAppAuthStrategyConfigOpenIDConnect struct {
 	Issuer               *string        `default:"null" json:"issuer"`
 	CredentialClaim      []string       `json:"credential_claim,omitempty"`

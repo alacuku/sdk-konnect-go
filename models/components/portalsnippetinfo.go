@@ -3,8 +3,9 @@
 package components
 
 import (
-	"github.com/Kong/sdk-konnect-go/internal/utils"
 	"time"
+
+	"github.com/alacuku/sdk-konnect-go/internal/utils"
 )
 
 // PortalSnippetInfo - Information about a snippet in a portal.

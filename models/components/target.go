@@ -3,7 +3,7 @@
 package components
 
 import (
-	"github.com/Kong/sdk-konnect-go/internal/utils"
+	"github.com/alacuku/sdk-konnect-go/internal/utils"
 )
 
 // TargetUpstream - The unique identifier or the name of the upstream for which to update the target.

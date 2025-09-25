@@ -7,10 +7,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	sdkkonnectcomp "github.com/Kong/sdk-konnect-go/models/components"
-	sdkkonnectops "github.com/Kong/sdk-konnect-go/models/operations"
-	"github.com/Kong/sdk-konnect-go/models/sdkerrors"
-	"github.com/Kong/sdk-konnect-go/pkg"
+	sdkkonnectcomp "github.com/alacuku/sdk-konnect-go/models/components"
+	sdkkonnectops "github.com/alacuku/sdk-konnect-go/models/operations"
+	"github.com/alacuku/sdk-konnect-go/models/sdkerrors"
+	"github.com/alacuku/sdk-konnect-go/pkg"
 )
 
 func TestCloudGateway(t *testing.T) {
@@ -53,17 +53,17 @@ func TestCloudGateway(t *testing.T) {
 		//         <DIR>/.gvm/gos/go1.23.4/src/testing/testing.go:1635 +0x47c
 		// panic({0x102fb1ee0?, 0x1032711d0?})
 		//         <DIR>/.gvm/gos/go1.23.4/src/runtime/panic.go:785 +0x124
-		// github.com/Kong/sdk-konnect-go.(*CustomDomains).DeleteCustomDomain.func1()
+		// github.com/alacuku/sdk-konnect-go.(*CustomDomains).DeleteCustomDomain.func1()
 		//         <DIR>/code_/sdk-konnect-go/customdomains.go:985 +0x98
-		// github.com/Kong/sdk-konnect-go/internal/utils.Retry.func1()
+		// github.com/alacuku/sdk-konnect-go/internal/utils.Retry.func1()
 		//         <DIR>/code_/sdk-konnect-go/internal/utils/retries.go:50 +0xd0
-		// github.com/Kong/sdk-konnect-go/internal/utils.retryWithBackoff({0x103020260, 0x1032a9ca0}, 0xc0002275d0, 0xc000227378)
+		// github.com/alacuku/sdk-konnect-go/internal/utils.retryWithBackoff({0x103020260, 0x1032a9ca0}, 0xc0002275d0, 0xc000227378)
 		//         <DIR>/code_/sdk-konnect-go/internal/utils/retries.go:121 +0x128
-		// github.com/Kong/sdk-konnect-go/internal/utils.Retry({0x103020260, 0x1032a9ca0}, {0xc0002278e0?, {0xc0002278d0?, 0xc0002985b0?, 0x63?}}, 0xc000227ab0)
+		// github.com/alacuku/sdk-konnect-go/internal/utils.Retry({0x103020260, 0x1032a9ca0}, {0xc0002278e0?, {0xc0002278d0?, 0xc0002985b0?, 0x63?}}, 0xc000227ab0)
 		//         <DIR>/code_/sdk-konnect-go/internal/utils/retries.go:39 +0x160
-		// github.com/Kong/sdk-konnect-go.(*CustomDomains).DeleteCustomDomain(0xc000119b80, {0x103020260, 0x1032a9ca0}, {0xc0002a4540, 0x24}, {0x0, 0x0, 0x140000000?})
+		// github.com/alacuku/sdk-konnect-go.(*CustomDomains).DeleteCustomDomain(0xc000119b80, {0x103020260, 0x1032a9ca0}, {0xc0002a4540, 0x24}, {0x0, 0x0, 0x140000000?})
 		//         <DIR>/code_/sdk-konnect-go/customdomains.go:978 +0xc04
-		// github.com/Kong/sdk-konnect-go/test/integration.TestCloudGateway.func1.2()
+		// github.com/alacuku/sdk-konnect-go/test/integration.TestCloudGateway.func1.2()
 		//         <DIR>/code_/sdk-konnect-go/test/integration/cloudgateway_test.go:49 +0x88
 		// testing.(*common).Cleanup.func1()
 		//         <DIR>/.gvm/gos/go1.23.4/src/testing/testing.go:1176 +0x148

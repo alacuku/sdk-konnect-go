@@ -3,8 +3,9 @@
 package operations
 
 import (
-	"github.com/Kong/sdk-konnect-go/models/components"
 	"net/http"
+
+	"github.com/alacuku/sdk-konnect-go/models/components"
 )
 
 // ListRegistrationsByApplicationQueryParamFilter - Filter application registrations returned in the response.

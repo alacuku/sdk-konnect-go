@@ -3,8 +3,9 @@
 package components
 
 import (
-	"github.com/Kong/sdk-konnect-go/internal/utils"
 	"time"
+
+	"github.com/alacuku/sdk-konnect-go/internal/utils"
 )
 
 // SystemAccountAccessTokenCreated - A response including a single system account access token with the token.

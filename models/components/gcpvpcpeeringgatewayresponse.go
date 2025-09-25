@@ -3,8 +3,9 @@
 package components
 
 import (
-	"github.com/Kong/sdk-konnect-go/internal/utils"
 	"time"
+
+	"github.com/alacuku/sdk-konnect-go/internal/utils"
 )
 
 // GCPVPCPeeringGatewayResponseTransitGatewayStateMetadata - Metadata describing the backing state of the transit gateway and why it may be in an erroneous state.

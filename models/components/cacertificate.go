@@ -3,7 +3,7 @@
 package components
 
 import (
-	"github.com/Kong/sdk-konnect-go/internal/utils"
+	"github.com/alacuku/sdk-konnect-go/internal/utils"
 )
 
 // CACertificate - A CA certificate object represents a trusted CA. These objects are used by Kong to verify the validity of a client or server certificate.

@@ -3,7 +3,7 @@
 package components
 
 import (
-	"github.com/Kong/sdk-konnect-go/internal/utils"
+	"github.com/alacuku/sdk-konnect-go/internal/utils"
 )
 
 // StringFieldOEQFilter - Returns entities that exact match any of the comma-delimited phrases in the filter string.

@@ -4,9 +4,10 @@ package config
 
 import (
 	"context"
-	"github.com/Kong/sdk-konnect-go/retry"
 	"net/http"
 	"time"
+
+	"github.com/alacuku/sdk-konnect-go/retry"
 )
 
 type HTTPClient interface {

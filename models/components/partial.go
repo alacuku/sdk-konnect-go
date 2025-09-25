@@ -6,7 +6,8 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/Kong/sdk-konnect-go/internal/utils"
+
+	"github.com/alacuku/sdk-konnect-go/internal/utils"
 )
 
 type PartialType string

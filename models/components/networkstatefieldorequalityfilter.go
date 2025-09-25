@@ -3,7 +3,7 @@
 package components
 
 import (
-	"github.com/Kong/sdk-konnect-go/internal/utils"
+	"github.com/alacuku/sdk-konnect-go/internal/utils"
 )
 
 // NetworkStateFieldOrEqualityFilter - Filter a network state by determining if the value is equal to any in a set of values, where the set is a

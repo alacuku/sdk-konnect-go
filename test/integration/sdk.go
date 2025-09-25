@@ -8,8 +8,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	sdkkonnectgo "github.com/Kong/sdk-konnect-go"
-	sdkkonnectcomp "github.com/Kong/sdk-konnect-go/models/components"
+	sdkkonnectgo "github.com/alacuku/sdk-konnect-go"
+	sdkkonnectcomp "github.com/alacuku/sdk-konnect-go/models/components"
 )
 
 // APIType is an enum for the type of API to use.

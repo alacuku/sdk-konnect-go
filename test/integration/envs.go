@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/Kong/sdk-konnect-go/pkg/sdkcfg"
+	"github.com/alacuku/sdk-konnect-go/pkg/sdkcfg"
 	"github.com/stretchr/testify/require"
 )
 

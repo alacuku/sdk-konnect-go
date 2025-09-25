@@ -19,10 +19,10 @@ package main
 
 import(
 	"context"
-	sdkkonnectgo "github.com/Kong/sdk-konnect-go"
-	"github.com/Kong/sdk-konnect-go/models/components"
-	"github.com/Kong/sdk-konnect-go/types"
-	"github.com/Kong/sdk-konnect-go/models/operations"
+	sdkkonnectgo "github.com/alacuku/sdk-konnect-go"
+	"github.com/alacuku/sdk-konnect-go/models/components"
+	"github.com/alacuku/sdk-konnect-go/types"
+	"github.com/alacuku/sdk-konnect-go/models/operations"
 	"log"
 )
 

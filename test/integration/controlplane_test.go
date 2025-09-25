@@ -7,10 +7,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	sdkkonnectgo "github.com/Kong/sdk-konnect-go"
-	sdkkonnectcomp "github.com/Kong/sdk-konnect-go/models/components"
-	sdkkonnectops "github.com/Kong/sdk-konnect-go/models/operations"
-	"github.com/Kong/sdk-konnect-go/pkg"
+	sdkkonnectgo "github.com/alacuku/sdk-konnect-go"
+	sdkkonnectcomp "github.com/alacuku/sdk-konnect-go/models/components"
+	sdkkonnectops "github.com/alacuku/sdk-konnect-go/models/operations"
+	"github.com/alacuku/sdk-konnect-go/pkg"
 )
 
 func TestControlPlaneCreateGetDelete(t *testing.T) {

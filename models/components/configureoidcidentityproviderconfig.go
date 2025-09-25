@@ -3,7 +3,7 @@
 package components
 
 import (
-	"github.com/Kong/sdk-konnect-go/internal/utils"
+	"github.com/alacuku/sdk-konnect-go/internal/utils"
 )
 
 // ConfigureOIDCIdentityProviderConfig - The identity provider that contains configuration data for the OIDC authentication integration.

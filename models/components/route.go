@@ -5,7 +5,8 @@ package components
 import (
 	"errors"
 	"fmt"
-	"github.com/Kong/sdk-konnect-go/internal/utils"
+
+	"github.com/alacuku/sdk-konnect-go/internal/utils"
 )
 
 type RouteType string

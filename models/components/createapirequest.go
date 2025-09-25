@@ -3,9 +3,10 @@
 package components
 
 import (
-	"github.com/Kong/sdk-konnect-go/internal/utils"
+	"github.com/alacuku/sdk-konnect-go/internal/utils"
 )
 
+// +k8s:openapi-gen=false
 type CreateAPIRequest struct {
 	// The name of your API. The `name + version` combination must be unique for each API you publish.
 	//

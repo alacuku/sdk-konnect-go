@@ -3,7 +3,7 @@ package hooks
 import (
 	"net/http"
 
-	"github.com/Kong/sdk-konnect-go/pkg/metadata"
+	"github.com/alacuku/sdk-konnect-go/pkg/metadata"
 )
 
 type UserAgentPreRequestHook struct{}

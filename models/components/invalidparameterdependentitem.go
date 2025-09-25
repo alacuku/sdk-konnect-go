@@ -5,7 +5,8 @@ package components
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/Kong/sdk-konnect-go/internal/utils"
+
+	"github.com/alacuku/sdk-konnect-go/internal/utils"
 )
 
 // InvalidParameterDependentItemRule - invalid parameters rules
@@ -32,6 +33,7 @@ func (e *InvalidParameterDependentItemRule) UnmarshalJSON(data []byte) error {
 	}
 }
 
+// +k8s:openapi-gen=false
 type InvalidParameterDependentItem struct {
 	Field string `json:"field"`
 	// invalid parameters rules

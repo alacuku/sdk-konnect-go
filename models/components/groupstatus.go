@@ -5,8 +5,9 @@ package components
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/Kong/sdk-konnect-go/internal/utils"
 	"time"
+
+	"github.com/alacuku/sdk-konnect-go/internal/utils"
 )
 
 // GroupStatusState - The state of the control plane group.

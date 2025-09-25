@@ -3,7 +3,7 @@
 package components
 
 import (
-	"github.com/Kong/sdk-konnect-go/internal/utils"
+	"github.com/alacuku/sdk-konnect-go/internal/utils"
 )
 
 // SAMLIdentityProviderConfigInput - The identity provider that contains configuration data for the SAML authentication integration.

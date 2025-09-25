@@ -3,7 +3,9 @@
 package components
 
 // GetPartialSchemaResponse - The schema for a partial
+// +k8s:openapi-gen=false
 type GetPartialSchemaResponse struct {
+	// +kubebuilder:pruning:PreserveUnknownFields
 	Fields []map[string]any `json:"fields,omitempty"`
 }
 

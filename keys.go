@@ -6,14 +6,15 @@ import (
 	"bytes"
 	"context"
 	"fmt"
-	"github.com/Kong/sdk-konnect-go/internal/config"
-	"github.com/Kong/sdk-konnect-go/internal/hooks"
-	"github.com/Kong/sdk-konnect-go/internal/utils"
-	"github.com/Kong/sdk-konnect-go/models/components"
-	"github.com/Kong/sdk-konnect-go/models/operations"
-	"github.com/Kong/sdk-konnect-go/models/sdkerrors"
-	"github.com/Kong/sdk-konnect-go/retry"
 	"net/http"
+
+	"github.com/alacuku/sdk-konnect-go/internal/config"
+	"github.com/alacuku/sdk-konnect-go/internal/hooks"
+	"github.com/alacuku/sdk-konnect-go/internal/utils"
+	"github.com/alacuku/sdk-konnect-go/models/components"
+	"github.com/alacuku/sdk-konnect-go/models/operations"
+	"github.com/alacuku/sdk-konnect-go/models/sdkerrors"
+	"github.com/alacuku/sdk-konnect-go/retry"
 )
 
 // Keys - A key object holds a representation of asymmetric keys in various formats. When Kong Gateway or a Kong plugin requires a specific public or private key to perform certain operations, it can use this entity.

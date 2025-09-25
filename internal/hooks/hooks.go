@@ -5,8 +5,9 @@ package hooks
 import (
 	"context"
 	"errors"
-	"github.com/Kong/sdk-konnect-go/internal/config"
 	"net/http"
+
+	"github.com/alacuku/sdk-konnect-go/internal/config"
 )
 
 type FailEarly struct {

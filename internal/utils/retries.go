@@ -6,7 +6,6 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/Kong/sdk-konnect-go/retry"
 	"io"
 	"math"
 	"math/rand"
@@ -16,6 +15,8 @@ import (
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/alacuku/sdk-konnect-go/retry"
 )
 
 // Deprecated: Use retry.BackoffStrategy instead.

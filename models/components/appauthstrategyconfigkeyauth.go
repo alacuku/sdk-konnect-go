@@ -3,7 +3,7 @@
 package components
 
 import (
-	"github.com/Kong/sdk-konnect-go/internal/utils"
+	"github.com/alacuku/sdk-konnect-go/internal/utils"
 )
 
 // AppAuthStrategyConfigKeyAuth - The most basic mode to configure an Application Auth Strategy for an API Product Version.

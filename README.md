@@ -1,6 +1,6 @@
 # sdk-konnect-go
 
-This is a prototype and should not be used. See [CONTRIBUTING.md](https://github.com/Kong/sdk-konnect-go/blob/main/CONTRIBUTING.md) for information on how this SDK is generated.
+This is a prototype and should not be used. See [CONTRIBUTING.md](https://github.com/alacuku/sdk-konnect-go/blob/main/CONTRIBUTING.md) for information on how this SDK is generated.
 
 <!-- No SDK Installation -->
 <!-- No SDK Example Usage -->
@@ -29,9 +29,9 @@ package main
 import (
 	"context"
 	"errors"
-	sdkkonnectgo "github.com/Kong/sdk-konnect-go"
-	"github.com/Kong/sdk-konnect-go/models/components"
-	"github.com/Kong/sdk-konnect-go/models/sdkerrors"
+	sdkkonnectgo "github.com/alacuku/sdk-konnect-go"
+	"github.com/alacuku/sdk-konnect-go/models/components"
+	"github.com/alacuku/sdk-konnect-go/models/sdkerrors"
 	"log"
 )
 
@@ -97,8 +97,8 @@ package main
 
 import (
 	"context"
-	sdkkonnectgo "github.com/Kong/sdk-konnect-go"
-	"github.com/Kong/sdk-konnect-go/models/components"
+	sdkkonnectgo "github.com/alacuku/sdk-konnect-go"
+	"github.com/alacuku/sdk-konnect-go/models/components"
 	"log"
 )
 
@@ -131,8 +131,8 @@ package main
 
 import (
 	"context"
-	sdkkonnectgo "github.com/Kong/sdk-konnect-go"
-	"github.com/Kong/sdk-konnect-go/models/components"
+	sdkkonnectgo "github.com/alacuku/sdk-konnect-go"
+	"github.com/alacuku/sdk-konnect-go/models/components"
 	"log"
 )
 
@@ -165,8 +165,8 @@ package main
 
 import (
 	"context"
-	sdkkonnectgo "github.com/Kong/sdk-konnect-go"
-	"github.com/Kong/sdk-konnect-go/models/operations"
+	sdkkonnectgo "github.com/alacuku/sdk-konnect-go"
+	"github.com/alacuku/sdk-konnect-go/models/operations"
 	"log"
 )
 
@@ -205,7 +205,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/Kong/sdk-konnect-go"
+	"github.com/alacuku/sdk-konnect-go"
 )
 
 var (
@@ -237,8 +237,8 @@ package main
 
 import (
 	"context"
-	sdkkonnectgo "github.com/Kong/sdk-konnect-go"
-	"github.com/Kong/sdk-konnect-go/models/components"
+	sdkkonnectgo "github.com/alacuku/sdk-konnect-go"
+	"github.com/alacuku/sdk-konnect-go/models/components"
 	"log"
 )
 
@@ -294,9 +294,9 @@ package main
 
 import (
 	"context"
-	sdkkonnectgo "github.com/Kong/sdk-konnect-go"
-	"github.com/Kong/sdk-konnect-go/models/components"
-	"github.com/Kong/sdk-konnect-go/retry"
+	sdkkonnectgo "github.com/alacuku/sdk-konnect-go"
+	"github.com/alacuku/sdk-konnect-go/models/components"
+	"github.com/alacuku/sdk-konnect-go/retry"
 	"log"
 	"models/operations"
 )
@@ -337,9 +337,9 @@ package main
 
 import (
 	"context"
-	sdkkonnectgo "github.com/Kong/sdk-konnect-go"
-	"github.com/Kong/sdk-konnect-go/models/components"
-	"github.com/Kong/sdk-konnect-go/retry"
+	sdkkonnectgo "github.com/alacuku/sdk-konnect-go"
+	"github.com/alacuku/sdk-konnect-go/models/components"
+	"github.com/alacuku/sdk-konnect-go/retry"
 	"log"
 )
 

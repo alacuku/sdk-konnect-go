@@ -4,7 +4,8 @@ package sdkerrors
 
 import (
 	"encoding/json"
-	"github.com/Kong/sdk-konnect-go/models/components"
+
+	"github.com/alacuku/sdk-konnect-go/models/components"
 )
 
 // BadRequestError - standard error

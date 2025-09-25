@@ -6,14 +6,15 @@ import (
 	"bytes"
 	"context"
 	"fmt"
-	"github.com/Kong/sdk-konnect-go/internal/config"
-	"github.com/Kong/sdk-konnect-go/internal/hooks"
-	"github.com/Kong/sdk-konnect-go/internal/utils"
-	"github.com/Kong/sdk-konnect-go/models/components"
-	"github.com/Kong/sdk-konnect-go/models/operations"
-	"github.com/Kong/sdk-konnect-go/models/sdkerrors"
-	"github.com/Kong/sdk-konnect-go/retry"
 	"net/http"
+
+	"github.com/alacuku/sdk-konnect-go/internal/config"
+	"github.com/alacuku/sdk-konnect-go/internal/hooks"
+	"github.com/alacuku/sdk-konnect-go/internal/utils"
+	"github.com/alacuku/sdk-konnect-go/models/components"
+	"github.com/alacuku/sdk-konnect-go/models/operations"
+	"github.com/alacuku/sdk-konnect-go/models/sdkerrors"
+	"github.com/alacuku/sdk-konnect-go/retry"
 )
 
 // Certificates - A certificate object represents a public certificate, and can be optionally paired with the corresponding private key. These objects are used by Kong Gateway to handle SSL/TLS termination for encrypted requests, or for use as a trusted CA store when validating peer certificate of client/service.

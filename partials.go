@@ -6,14 +6,15 @@ import (
 	"bytes"
 	"context"
 	"fmt"
-	"github.com/Kong/sdk-konnect-go/internal/config"
-	"github.com/Kong/sdk-konnect-go/internal/hooks"
-	"github.com/Kong/sdk-konnect-go/internal/utils"
-	"github.com/Kong/sdk-konnect-go/models/components"
-	"github.com/Kong/sdk-konnect-go/models/operations"
-	"github.com/Kong/sdk-konnect-go/models/sdkerrors"
-	"github.com/Kong/sdk-konnect-go/retry"
 	"net/http"
+
+	"github.com/alacuku/sdk-konnect-go/internal/config"
+	"github.com/alacuku/sdk-konnect-go/internal/hooks"
+	"github.com/alacuku/sdk-konnect-go/internal/utils"
+	"github.com/alacuku/sdk-konnect-go/models/components"
+	"github.com/alacuku/sdk-konnect-go/models/operations"
+	"github.com/alacuku/sdk-konnect-go/models/sdkerrors"
+	"github.com/alacuku/sdk-konnect-go/retry"
 )
 
 // Partials - Some entities in Kong Gateway share common configuration settings that often need to be repeated. For example, multiple plugins that connect to Redis may require the same connection settings. Without Partials, you would need to replicate this configuration across all plugins. If the settings change, you would need to update each plugin individually.

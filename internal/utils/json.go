@@ -14,7 +14,7 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/Kong/sdk-konnect-go/types"
+	"github.com/alacuku/sdk-konnect-go/types"
 
 	"github.com/ericlagergren/decimal"
 )

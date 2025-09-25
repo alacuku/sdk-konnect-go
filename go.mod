@@ -1,4 +1,4 @@
-module github.com/Kong/sdk-konnect-go
+module github.com/alacuku/sdk-konnect-go
 
 go 1.22
 

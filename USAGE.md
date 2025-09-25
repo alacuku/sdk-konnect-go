@@ -4,8 +4,8 @@ package main
 
 import (
 	"context"
-	sdkkonnectgo "github.com/Kong/sdk-konnect-go"
-	"github.com/Kong/sdk-konnect-go/models/components"
+	sdkkonnectgo "github.com/alacuku/sdk-konnect-go"
+	"github.com/alacuku/sdk-konnect-go/models/components"
 	"log"
 )
 

@@ -5,7 +5,8 @@ package components
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/Kong/sdk-konnect-go/internal/utils"
+
+	"github.com/alacuku/sdk-konnect-go/internal/utils"
 )
 
 // UpdateControlPlaneRequestAuthType - The auth type value of the cluster associated with the Runtime Group.

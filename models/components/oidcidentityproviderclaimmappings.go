@@ -3,7 +3,7 @@
 package components
 
 import (
-	"github.com/Kong/sdk-konnect-go/internal/utils"
+	"github.com/alacuku/sdk-konnect-go/internal/utils"
 )
 
 // OIDCIdentityProviderClaimMappings - Defines the mappings between OpenID Connect (OIDC) claims and local claims used by your application for

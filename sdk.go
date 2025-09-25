@@ -7,13 +7,14 @@ package sdkkonnectgo
 import (
 	"context"
 	"fmt"
-	"github.com/Kong/sdk-konnect-go/internal/config"
-	"github.com/Kong/sdk-konnect-go/internal/hooks"
-	"github.com/Kong/sdk-konnect-go/internal/utils"
-	"github.com/Kong/sdk-konnect-go/models/components"
-	"github.com/Kong/sdk-konnect-go/retry"
 	"net/http"
 	"time"
+
+	"github.com/alacuku/sdk-konnect-go/internal/config"
+	"github.com/alacuku/sdk-konnect-go/internal/hooks"
+	"github.com/alacuku/sdk-konnect-go/internal/utils"
+	"github.com/alacuku/sdk-konnect-go/models/components"
+	"github.com/alacuku/sdk-konnect-go/retry"
 )
 
 // ServerList contains the list of servers available to the SDK
@@ -304,7 +305,7 @@ func New(opts ...SDKOption) *SDK {
 	sdk := &SDK{
 		SDKVersion: "0.10.1",
 		sdkConfiguration: config.SDKConfiguration{
-			UserAgent:  "speakeasy-sdk/go 0.10.1 2.698.4 3.0.26 github.com/Kong/sdk-konnect-go",
+			UserAgent:  "speakeasy-sdk/go 0.10.1 2.698.4 3.0.26 github.com/alacuku/sdk-konnect-go",
 			ServerList: ServerList,
 		},
 		hooks: hooks.New(),

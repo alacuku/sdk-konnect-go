@@ -3,8 +3,9 @@
 package operations
 
 import (
-	"github.com/Kong/sdk-konnect-go/models/components"
 	"net/http"
+
+	"github.com/alacuku/sdk-konnect-go/models/components"
 )
 
 type FetchPartialSchemaRequest struct {
@@ -28,6 +29,7 @@ func (o *FetchPartialSchemaRequest) GetControlPlaneID() string {
 	return o.ControlPlaneID
 }
 
+// +k8s:openapi-gen=false
 type FetchPartialSchemaResponse struct {
 	// HTTP response content type for this operation
 	ContentType string

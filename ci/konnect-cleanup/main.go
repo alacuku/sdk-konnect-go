@@ -4,11 +4,11 @@ import (
 	"context"
 	"log/slog"
 
-	sdkkonnectgo "github.com/Kong/sdk-konnect-go"
-	sdkkonnectcomp "github.com/Kong/sdk-konnect-go/models/components"
-	sdkkonnectops "github.com/Kong/sdk-konnect-go/models/operations"
-	sdkkonnectpkg "github.com/Kong/sdk-konnect-go/pkg"
-	sdkkonnectcfg "github.com/Kong/sdk-konnect-go/pkg/sdkcfg"
+	sdkkonnectgo "github.com/alacuku/sdk-konnect-go"
+	sdkkonnectcomp "github.com/alacuku/sdk-konnect-go/models/components"
+	sdkkonnectops "github.com/alacuku/sdk-konnect-go/models/operations"
+	sdkkonnectpkg "github.com/alacuku/sdk-konnect-go/pkg"
+	sdkkonnectcfg "github.com/alacuku/sdk-konnect-go/pkg/sdkcfg"
 )
 
 func main() {

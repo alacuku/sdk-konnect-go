@@ -3,6 +3,7 @@
 package components
 
 // GetPluginSchemaResponse - The schema for the plugin
+// +k8s:openapi-gen=false
 type GetPluginSchemaResponse struct {
 	Fields []map[string]any `json:"fields,omitempty"`
 }
