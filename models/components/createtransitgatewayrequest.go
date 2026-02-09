@@ -19,6 +19,7 @@ const (
 )
 
 // CreateTransitGatewayRequest - Request schema for creating a transit gateway.
+// +k8s:openapi-gen=true
 type CreateTransitGatewayRequest struct {
 	AWSTransitGateway           *AWSTransitGateway           `queryParam:"inline,name=CreateTransitGatewayRequest" union:"member"`
 	AWSVpcPeeringGateway        *AWSVpcPeeringGateway        `queryParam:"inline,name=CreateTransitGatewayRequest" union:"member"`

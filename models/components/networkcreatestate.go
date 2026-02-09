@@ -3,6 +3,7 @@
 package components
 
 // NetworkCreateState - Initial state for creating a network.
+// +k8s:openapi-gen=true
 type NetworkCreateState string
 
 const (

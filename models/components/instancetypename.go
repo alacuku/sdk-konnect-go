@@ -3,6 +3,7 @@
 package components
 
 // InstanceTypeName - Instance type name to indicate capacity.
+// +k8s:openapi-gen=true
 type InstanceTypeName string
 
 const (

@@ -10,6 +10,7 @@ package components
 // - `ready` - The transit gateway attachment is fully operational and can route traffic as configured.
 // - `terminating` - The attachment is in the process of being deleted and is no longer accepting new traffic.
 // - `terminated` - The attachment has been fully deleted and is no longer available.
+// +k8s:openapi-gen=true
 type TransitGatewayState string
 
 const (

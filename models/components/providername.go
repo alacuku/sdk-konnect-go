@@ -3,6 +3,7 @@
 package components
 
 // ProviderName - Name of cloud provider.
+// +k8s:openapi-gen=true
 type ProviderName string
 
 const (

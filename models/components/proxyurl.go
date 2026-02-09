@@ -3,6 +3,7 @@
 package components
 
 // ProxyURL - Proxy URL associated with reaching the data-planes connected to a control-plane.
+// +k8s:openapi-gen=true
 type ProxyURL struct {
 	// Hostname of the proxy URL.
 	Host string `json:"host"`

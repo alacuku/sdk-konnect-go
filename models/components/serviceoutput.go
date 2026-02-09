@@ -19,6 +19,7 @@ func (c *ClientCertificate) GetID() *string {
 }
 
 // Protocol - The protocol used to communicate with the upstream.
+// +k8s:openapi-gen=true
 type Protocol string
 
 const (

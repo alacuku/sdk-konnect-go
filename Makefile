@@ -73,6 +73,10 @@ _generate.omitempty:
 	$(SED) -i 's#Members \[\]Members `json:"members,omitempty"`#Members \[\]Members `json:"members"`#g' \
 		models/components/groupmembership.go
 
+.PHONY: generate.openapi
+generate.openapi:
+	./hack/generate-openapi.sh
+
 .PHONY: generate.deepcopy
 generate.deepcopy: controller-gen
 	$(SED) -i 's#\(type CreateControlPlaneRequest struct\)#// $(KUBEBUILDER_GENERATE_CODE_MARKER)\n\1#g' \
